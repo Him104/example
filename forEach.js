@@ -47,18 +47,18 @@
 //   return num;
 // }
 
-let arr = [1, 2, 4, 65, 7, 87, 1];
+// let arr = [1, 2, 4, 65, 7, 87, 1];
 
-// let mobile = arr.slice(1,3) // 1 = start and 3 = end 
+// // let mobile = arr.slice(1,3) // 1 = start and 3 = end 
 
-// console.log(mobile)
+// // console.log(mobile)
 
 
-let mob = arr.splice(2, 0, 'a','b') //  2- start - at which we start changing the array.
-                               // 4 - deleteCount - the number of elements to remove.
+// let mob = arr.splice(2, 0, 'a','b') //  2- start - at which we start changing the array.
+//                                // 4 - deleteCount - the number of elements to remove.
 
-console.log(mob)
-console.log(arr)
+// console.log(mob)
+// console.log(arr)
 
 
 
