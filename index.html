@@ -3,9 +3,22 @@
   <head>
     <style>
       body {
-        background-image: url("https://images.unsplash.com/photo-1543900694-133f37abaaa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
-        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        /* background-image: url("https://images.unsplash.com/photo-1543900694-133f37abaaa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"); */
+         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
         background-color: #f1f1f1;
+        justify-content: center;
+        align-items: center;
+        background-color: chartreuse;
+      }
+      .counter {
+        display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         height: 100%;
+         background-color: #ad8bc7;
+         border: 3px solid #df0e0e;
       }
     </style>
     <meta charset="UTF-8" />
@@ -23,9 +36,13 @@
     </h1>
 
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-      deserunt nostrum ratione voluptatum quo cumque molestias soluta vel est
-      hic et dolorum rerum aliquid voluptatibus non, placeat illo sequi totam?
+      <strong>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+        deserunt nostrum ratione voluptatum quo cumque molestias soluta vel est
+        hic
+      </strong>
+      <em> et dolorum rerum aliquid voluptatibus </em> non, placeat illo sequi
+      totam?
     </p>
     <!-- <img src="channels4_profile.jpeg" alt="cat" /> -->
     <!-- <a
@@ -34,5 +51,71 @@
     > -->
     <input name="name" type="text" placeholder="enter your name" />
     <button name="submit">Click Me</button>
+    <h2>List of students</h2>
+    <ul>
+      <li>Saket</li>
+      <li>Sooraj</li>
+      <li>Himanshu</li>
+      <li>Pradeep</li>
+      <li>Sakshi</li>
+    </ul>
+    <br />
+
+    <h2>List of courses</h2>
+    <ol>
+      <li>Backend development</li>
+      <li>Frontend development</li>
+      <li>Fullstack development</li>
+      <li>Manual testing</li>
+      <li>Automation testing</li>
+    </ol>
+
+    <h3>Employee Table</h3>
+    <table border="2">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+      </tr>
+
+      <tr>
+        <td>Himanshu</td>
+        <td>26</td>
+        <td>5000</td>
+      </tr>
+
+      <tr>
+        <td>Saket</td>
+        <td>25</td>
+        <td>50000</td>
+      </tr>
+
+      <tr>
+        <td>Sooraj</td>
+        <td>29</td>
+        <td>20000</td>
+      </tr>
+    </table>
+
+    <h1>Himanshu</h1>
+    <h2>Himanshu</h2>
+    <h3>Himanshu</h3>
+    <h4>Himanshu</h4>
+    <h5>Himanshu</h5>
+    <h6>Himanshu</h6>
+    <br />
+
+    <h1>Registration Form</h1>
+    <div class="counter">
+      <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="name" name="name" /><br />
+        <label for="email">Email:</label>
+        <input type="text" id="name" name="email" /><br />
+        <label for="text">Phone:</label>
+        <input type="text" id="name" name="phone" /> <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
   </body>
 </html>
