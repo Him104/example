@@ -4,22 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTS Learn</title>
+<style>
+    #foo{
+        background-color: #f0f0f0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    /* .bar{
+        background-color: aqua;
+    } */
+</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Welcome at 9:00 PM batch  </h1>
-    <h2>Welcome at 9:00 PM batch  </h2>
+    <h1 class="bar">Welcome at 9:00 PM batch  </h1>
+    <h2 id="foo">Welcome at 9:00 PM batch  </h2>
     <h3>Welcome at 9:00 PM batch  </h3>
     <h4>Welcome at 9:00 PM batch  </h4>
     <h5>Welcome at 9:00 PM batch  </h5>
     <h6>Welcome at 9:00 PM batch  </h6>
 
-
-    <p>During class I came to know that everything I can search on internet even suggestions for career. Later on, I started exploring internet in my batchmates phone. This was the time when negativeness towards my career infested around my mind that I should have gone for management stream and not for IT. Some how I completed my BCA and started thinking of pursuing MBA further. But in mean time, I get a set back from my family side and it was a time I had to take the responsibility of my family on my shoulders. So, I started appearing in Banking exams and get selected for Clerical services in Punjab National Bank and for Probationary Officer in Bank of Baroda. Seeing my family condition, I hurriedly joined Bank of Baroda. I got my first smart phone with my first salary. As I told earlier it was my hard work during my high school which help me most in getting these jobs as I was good at both mathematics and english which matter most in the Banking and SSC exams. Later I moved on and get selected for my current post.</p>
+<div class="bar">
+    <div>
+    <h1>This is my paragraph</h1>
+</div>
+    <p >During class I came to know that everything I can search on internet even suggestions for career. Later on, I started exploring internet in my batchmates phone. This was the time when negativeness towards my career infested around my mind that I should have gone for management stream and not for IT. Some how I completed my BCA and started thinking of pursuing MBA further. But in mean time, I get a set back from my family side and it was a time I had to take the responsibility of my family on my shoulders. So, I started appearing in Banking exams and get selected for Clerical services in Punjab National Bank and for Probationary Officer in Bank of Baroda. Seeing my family condition, I hurriedly joined Bank of Baroda. I got my first smart phone with my first salary. As I told earlier it was my hard work during my high school which help me most in getting these jobs as I was good at both mathematics and english which matter most in the Banking and SSC exams. Later I moved on and get selected for my current post.</p>
    <br>
-
-    <h2> Fruits</h2>
-<ul>
+</div>
+    <h2 id="react-batch"> Fruits</h2>
+<ul id="foo">
     <li>apple</li>
     <li>ORange</li>
     <li>pineapple</li>
@@ -28,7 +42,7 @@
 </ul>
 
 <h2> Fruits</h2>
-<ol>
+<ol style="background-color: cornflowerblue;">
     <li>apple</li>
     <li>ORange</li>
     <li>pineapple</li>
@@ -37,6 +51,10 @@
 </ol>
 
 
+<a href="https://www.htslearn.com">Visit HTS website</a>
+<script>
+document.getElementById('react-batch').innerHTML = (' <h2>Vegetables</h2>')
+</script>
 
 
 </body>
