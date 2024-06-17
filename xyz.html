@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTS Learn</title>
+
+
+    
 <style>
     #foo{
         background-color: #f0f0f0;
@@ -13,6 +16,36 @@
     /* .bar{
         background-color: aqua;
     } */
+
+     #filling-form{
+    
+        display: grid;
+        background-color:darkkhaki;
+
+     }
+
+     h1{
+        color:blue;
+    }
+
+    div{
+padding: 10px;
+margin: 0px;
+
+        background-color:red}
+
+
+        .container{
+            width: 50%;
+        }
+
+
+        @media (max-width:600px){
+            .container{
+                width: 100%;
+            }
+        }
+    
 </style>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -25,13 +58,13 @@
     <h5>Welcome at 9:00 PM batch  </h5>
     <h6>Welcome at 9:00 PM batch  </h6>
 
-<div class="bar">
-    <div>
+<!-- <div class="bar"> -->
+    <!-- <div>
     <h1>This is my paragraph</h1>
-</div>
-    <p >During class I came to know that everything I can search on internet even suggestions for career. Later on, I started exploring internet in my batchmates phone. This was the time when negativeness towards my career infested around my mind that I should have gone for management stream and not for IT. Some how I completed my BCA and started thinking of pursuing MBA further. But in mean time, I get a set back from my family side and it was a time I had to take the responsibility of my family on my shoulders. So, I started appearing in Banking exams and get selected for Clerical services in Punjab National Bank and for Probationary Officer in Bank of Baroda. Seeing my family condition, I hurriedly joined Bank of Baroda. I got my first smart phone with my first salary. As I told earlier it was my hard work during my high school which help me most in getting these jobs as I was good at both mathematics and english which matter most in the Banking and SSC exams. Later I moved on and get selected for my current post.</p>
+</div> -->
+    <p class='container'>During class I came to know that everything I can search on internet even suggestions for career. Later on, I started exploring internet in my batchmates phone. This was the time when negativeness towards my career infested around my mind that I should have gone for management stream and not for IT. Some how I completed my BCA and started thinking of pursuing MBA further. But in mean time, I get a set back from my family side and it was a time I had to take the responsibility of my family on my shoulders. So, I started appearing in Banking exams and get selected for Clerical services in Punjab National Bank and for Probationary Officer in Bank of Baroda. Seeing my family condition, I hurriedly joined Bank of Baroda. I got my first smart phone with my first salary. As I told earlier it was my hard work during my high school which help me most in getting these jobs as I was good at both mathematics and english which matter most in the Banking and SSC exams. Later I moved on and get selected for my current post.</p>
    <br>
-</div>
+<!-- </div> -->
     <h2 id="react-batch"> Fruits</h2>
 <ul id="foo">
     <li>apple</li>
@@ -50,10 +83,32 @@
     <li>dragon fruit</li>
 </ol>
 
+<h1 id="step1"  style="background-color: aqua; margin: 0;">Registration Form</h1>
 
-<a href="https://www.htslearn.com">Visit HTS website</a>
+<p style="color:blue; background-color: bisque; margin-top: 0%; padding-top: 0%;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore in sunt nam hic, dicta est sequi quisquam, labore officiis dignissimos culpa debitis ipsam nemo mollitia quibusdam ratione illo quam ut.</p>
+<form id="filling-form" style="color: blue;">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="required *"><br>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="enter your email" ><br>
+    <label>
+    <input type="radio" name="gender" value="male" checked>
+Male
+</label>
+<label>
+    <input type="radio" name="gender" value="female" checked>
+Female
+</label>
+<input type="checkbox"><br>
+<button type="submit">Submit</button>
+</form>
+
+
+
+ <a href="https://www.htslearn.com">Visit HTS website</a>
 <script>
-document.getElementById('react-batch').innerHTML = (' <h2>Vegetables</h2>')
+document.getElementById('step1').innerHTML = (' <h1>Form</h1>')
 </script>
 
 
