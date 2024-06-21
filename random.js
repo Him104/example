@@ -18,20 +18,20 @@ name = 'himanshu' // initialisation
 // psy();
 
 // console.log(counter)
+
 {
 
-let foo = "I am a block scoped";
+const foo = "I am a block scoped";
 
 // console.log(foo)
 
-foo = "I have been replaced"
+// foo = "I have been replaced"
 // console.log(foo)
 
-foo = 20;
+// foo = 20;
 
 // console.log(foo)
-
-
-}
 
 console.log(foo)
+
+}
