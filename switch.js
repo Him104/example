@@ -1,31 +1,81 @@
-let day = 5;
-let dayName;
+// let day = "Wednesday";
 
-switch (day) {
-  case 1: 
-  dayName =  "Monday"
-    break;
 
-  case 2: 
-  dayName = "Tuesday"
-    break;
+// switch (day) {
+//   case    "Monday":
 
-  case 3: 
-  dayName = "Wednesday"
-    break;
+//   console.log("today is monday")
+//     break;
 
-  case 4 : 
-  dayName = "Thursday"
-    break;
+//     case    "Tuesday":
 
-  case 5 : 
-  dayName = "Friday"
+//     console.log("today is tuesday")
+//       break;
+//       case    "Wednesday":
 
-    break;
+//       console.log("today is wednesday")
+//         break;
+//         case    "Thursday":
 
-  default:
-dayName = "didn't match any day"
-break;
+//         console.log("today is thursday")
+//           break;
+
+//           case    "Friday":
+
+//           console.log("today is Friday")
+//             break;
+
+//   default:
+//     console.log("doesn't match the case")
+
+// break;
+// }
+
+// let a = 10;
+// let b = 20;
+// let c = a+b
+
+
+// if (c != 29) {
+
+//   console.log("c is greater than 29")
+  
+// }
+
+// else
+
+// console.log("condition was false")
+
+// console.log(c)
+
+let age = 17;
+let citizen = true
+
+if (age >= 18 || citizen) {
+
+if (age >= 18 && citizen ) {
+
+  console.log('you are not eligible for voting')
+  
 }
 
-console.log("the day is : " + dayName)
+else if (age >= 18 &&  !citizen) {
+
+  console.log("not citizen but eligible for voting ");
+  
+}
+
+else if (age < 18  && citizen) {
+
+  console.log("Yes, you are citizen, but not eligible for voting")
+  
+}
+
+}
+else {
+  console.log("doesn't match any condition")
+}
+
+
+
+
