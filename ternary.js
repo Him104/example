@@ -77,11 +77,69 @@
 // console.log(add(2,8))
 
 
-const abc = (fname = "Himanshu") =>{
-    return fname
-}
+// const abc = (fname = "Himanshu") =>{
+//     return fname
+// }
 
-console.log(abc())
+// console.log(abc())
+
+
+// function xyz(params) {  //function declaration
+// return params;    
+// }
+// console.log(xyz('jhdghjdghjd')) // function invocation
+
+
+// const xyz = (x,y) => {
+//     return x+y
+// }
+
+// console.log(xyz(652463, 7828762))
+
+
+
+
+// const oiusisu = () => {
+// return "Hello"
+// }
+
+// console.log(oiusisu())
+
+
+// const add = x => x * x
+
+// console.log(add(10))
+
+// function name(a , b) {
+
+//     return a + b;
+    
+// }
+
+// console.log(name(435,836))
+
+// const user = (name, age) => ({name, age})
+
+// console.log(user('Himanshu', 80))
+
+
+// Template Literals
+
+
+
+// const name = "Deepak";
+
+// const age = 35
+
+
+// const msg = `My name is ${name} and I am ${age} years old`
+
+// console.log(msg)
+
+
+
+
+
 
 
 
