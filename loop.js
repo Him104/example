@@ -37,8 +37,12 @@
 // }
 
 
-let starWars = {a:1,b:2,c:3,}
+// let starWars = {a:1,b:2,c:3,}
 
-for (const key in starWars) {
-        console.log(key, starWars[key])
-    }
+// for (const key in starWars) {
+//         console.log(key, starWars[key])
+//     }
+
+
+
+
