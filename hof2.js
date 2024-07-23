@@ -52,9 +52,9 @@ let arr = [1,2,3,4,5,6,7,8]
 // })
 
 
-const car = {type:"Fiat", model:"500", color:"white"};
+// const car = {type:"Fiat", model:"500", color:"white"};
 
 
-let keys = Object.values(car)
+// let keys = Object.values(car)
 
-console.log(keys)
+// console.log(keys)
